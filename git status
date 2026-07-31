@@ -1,0 +1,29 @@
+[33mcommit aacd634d52f0b0ea799ad0b4f21473f46ad410d3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: datalogbysamira <datalog.bysamira@gmail.com>
+Date:   Thu Jul 30 02:45:09 2026 +0300
+
+    Add comprehensive project README documenting completed BI development phases
+
+[33mcommit aa2e02b38eac0884eae7bd6c0257b4b0e9cba974[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: datalogbysamira <datalog.bysamira@gmail.com>
+Date:   Thu Jul 30 02:40:03 2026 +0300
+
+    Completed Phase 4: Built star schema, created dimension tables, configured relationships, and optimized the Power BI data model
+
+[33mcommit e8c62cb89e39954c6a5ad90926e373b0530761f8[m
+Author: datalogbysamira <datalog.bysamira@gmail.com>
+Date:   Thu Jul 30 02:13:10 2026 +0300
+
+    Modified docs/Sales_Data_Dictionary.xlsx and added docs/ETL_Process.xlsx with new ETL steps
+
+[33mcommit 2621a300f70a3afc7ca535caea196c1ea08a2b7a[m
+Author: datalogbysamira <datalog.bysamira@gmail.com>
+Date:   Thu Jul 30 01:33:09 2026 +0300
+
+    ETL_Process for Business Understand and data preperation phases were added
+
+[33mcommit 4ff49c87bc929083933d391ead577230feb816fa[m
+Author: datalogbysamira <datalog.bysamira@gmail.com>
+Date:   Thu Jul 30 01:27:30 2026 +0300
+
+    Bussines Structure and documentation prepared

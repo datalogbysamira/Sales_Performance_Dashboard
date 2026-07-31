@@ -254,4 +254,4 @@ The project is ready to begin DAX development and dashboard implementation.
 
 **Samira Kiriti**
 
-Data Analyst | Power BI | Business Intelligence
+Data Analyst | Power | Business Intelligence
