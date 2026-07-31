@@ -283,7 +283,6 @@ Examples include:
 
 Potential enhancements include:
 
-- Forecasting using Power BI Analytics
 - Row-Level Security (RLS)
 - Mobile Layout
 - Incremental Refresh
@@ -296,5 +295,6 @@ Potential enhancements include:
 # 👩‍💻 Author
 
 **Samira Kiriti**
+![LinkedIN](https://www.linkedin.com/in/samira-kriti/)
 
 Data Analyst | Business Intelligence | Power BI | SQL | Python | Excel
