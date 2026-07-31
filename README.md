@@ -1,73 +1,144 @@
 # 📊 Sales Performance Dashboard
 
-An end-to-end Business Intelligence project that transforms raw sales data into an interactive dashboard using **Power BI**.
+An end-to-end Business Intelligence project that transforms raw sales data into an interactive Power BI dashboard for monitoring business performance, identifying sales trends, evaluating profitability, and supporting strategic decision-making.
 
-The project follows a complete BI development lifecycle, including business understanding, data preparation, dimensional modeling, DAX calculations, and interactive dashboard development.
+The project demonstrates the complete BI workflow from business understanding, data preparation, data modeling, DAX development, to interactive dashboard design following industry best practices.
 
 ---
 
-## 🎯 Project Objectives
+# 📌 Project Overview
 
-The dashboard aims to help business stakeholders monitor sales performance and answer important business questions such as:
+Organizations generate thousands of sales transactions every day. Raw transactional data alone provides limited value unless it is transformed into meaningful business insights.
 
+This project builds a professional Sales Performance Dashboard that enables stakeholders to:
+
+- Monitor sales performance over time
+- Analyze profitability
+- Evaluate products and categories
+- Compare regional performance
+- Analyze customer behavior
+- Monitor returned orders
+- Support business decisions through KPIs and interactive visualizations
+
+---
+
+# 🎯 Project Objectives
+
+The main objectives of this project are:
+
+- Import and clean raw sales data
+- Build a robust ETL process using Power Query
+- Design a Star Schema data model
+- Develop reusable DAX measures
+- Calculate business KPIs
+- Create interactive Power BI dashboards
+- Apply time intelligence analysis
+- Enable drill-through analysis
+- Deliver an executive-level reporting solution
+
+---
+
+# 📋 Business Requirements
+
+The dashboard must answer the following business questions:
+
+### Sales Trends
 - Is the business growing over time?
-- Which products generate the highest revenue and profit?
-- Which regions perform best?
-- Which customer segments are most valuable?
+- Which month generates the highest sales?
+- Which season performs best?
 - What is the return rate?
-- Which shipment and payment methods generate the highest sales?
+
+### Sales Performance
+- What is the total revenue?
+- What is the total profit?
+- What is the average order value?
+- Which shipment mode generates the highest sales?
+- Which payment method performs best?
+
+### Product Analysis
+- Which products generate the highest sales?
+- Which products are most profitable?
+- Which products should receive additional marketing investment?
+- Which products are loss-making?
+
+### Customer Analysis
+- Who are the highest-value customers?
+- Which customer segment generates the highest profit?
+- How many repeat customers do we have?
+
+### Regional Analysis
+- Which region generates the highest revenue?
+- Which region is most profitable?
+- Which regions deserve expansion?
+
+### Category Analysis
+- Which category contributes the highest sales?
+- Which sub-category performs best?
+
+### Return Analysis
+- Which regions have the highest return rates?
+- Which products are returned most frequently?
 
 ---
 
-## 🛠 Tech Stack
+# ⭐ Dashboard Features
 
-- Power BI Desktop
-- Power Query (ETL)
-- Data Modeling
-- DAX
-- Git & GitHub
-- Microsoft Excel
+The dashboard includes:
+
+- Executive Overview
+- Sales Performance Analysis
+- Product Performance Analysis
+- Customer Analysis
+- Regional Analysis
+- Category Analysis
+- Return Analysis
+- Interactive KPI Cards
+- Dynamic Slicers
+- Cross Filtering
+- Drill-through Pages
+- Dynamic Titles
+- Time Intelligence Analysis
+- Professional Navigation
+- Responsive Layout
 
 ---
 
-## 📁 Project Structure
+# 🛠 Technologies & Tools
+
+| Category | Technology |
+|----------|------------|
+| BI Tool | Power BI Desktop |
+| ETL | Power Query |
+| Data Modeling | Star Schema |
+| Calculations | DAX |
+| Documentation | Microsoft Excel |
+| Version Control | Git & GitHub |
+
+---
+
+# 📂 Project Structure
 
 ```text
-Sales_Performance_Dashboard
+Sales_Performance_Dashboard/
+
 │
 ├── data/
-│   ├── raw/
-│   ├── cleaned/
-│   └── processed/
-│
 ├── docs/
-│   ├── Business_Requirements.md
-│   ├── KPI_Definitions.xlsx
-│   ├── Sales_Data_Dictionary.xlsx
-│   └── ETL_Process.xlsx
-│
 ├── dashboard/
-│
 ├── outputs/
-│
+├── python_scripts/
 ├── presentation/
-│
 ├── README.md
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
 
-# 📌 Development Phases
+# 🔄 Project Implementation Phases
 
 ## ✅ Phase 1 — Business Understanding
 
-Completed
-
-Deliverables:
-
-- Project Objectives
-- Stakeholder Identification
+- Business Objectives
 - Business Requirements
 - Business Questions
 - KPI Definitions
@@ -77,181 +148,153 @@ Deliverables:
 
 ## ✅ Phase 2 — Data Understanding
 
-Completed
-
-Deliverables:
-
-- Dataset Overview
-- Data Granularity
+- Dataset Review
 - Data Dictionary
-- Fact & Dimension Identification
 - Data Quality Assessment
-- Required Transformations
+- Fact & Dimension Identification
 
 ---
 
-## ✅ Phase 3 — Data Preparation (Power Query ETL)
+## ✅ Phase 3 — Data Preparation (ETL)
 
-Completed
-
-Main ETL steps:
-
-- Imported CSV dataset
-- Validated data types
-- Removed duplicates
-- Handled missing values
-- Removed errors
-- Created derived columns
-
-Derived columns include:
-
-- Year
-- Quarter
-- Month Number
-- Month Name
-- Day Name
-- Week Number
-- Season
+- Import Dataset
+- Clean Data
+- Handle Null Values
+- Remove Duplicates
+- Create Derived Columns
+- Build Date Table
+- Create Reference Tables
+- Build Final Fact Table
 
 ---
 
 ## ✅ Phase 4 — Data Modeling
 
-Completed
-
-Implemented:
-
-- Star Schema
-- Dimension Tables
-- Date Table
-- Relationships
-- Optimized Data Model
-
-Dimension Tables:
-
-- DimDate
-- DimCustomer
-- DimProduct
-- DimCategory
-- DimGeography
-- DimShipMode
-- DimPaymentMode
+- Build Star Schema
+- Create Relationships
+- Optimize Data Model
 
 ---
 
-## 🚧 Phase 5 — DAX & Business Calculations
+## ✅ Phase 5 — DAX Development
 
-Next Step
-
-Planned measures include:
-
-- Total Revenue
-- Total Profit
-- Total Orders
-- Total Customers
-- Average Order Value
-- Profit Margin
-- Return Rate
-- Growth Rate
-- Sales per Customer
-- Profit per Customer
+- Base Measures
+- Financial KPIs
+- Time Intelligence
+- Customer KPIs
+- Product KPIs
+- Regional KPIs
+- Business Measures
 
 ---
 
-## 🚧 Phase 6 — Dashboard Development
-
-Planned pages:
+## ✅ Phase 6 — Dashboard Development
 
 - Executive Overview
-- Sales Trends
+- Sales Performance
 - Product Analysis
-- Regional Analysis
 - Customer Analysis
+- Regional Analysis
 - Category Analysis
+- Return Analysis
+- Navigation
+- Drill-through
+- Interactive Slicers
 
 ---
 
-## 🚧 Phase 7 — Insights & Reporting
+# 📈 Key Performance Indicators
 
-Planned deliverables:
-
-- Business Insights
-- Recommendations
-- Dashboard Presentation
-- Final Report
-
----
-
-# 📈 KPIs
-
-The dashboard analyzes several business metrics, including:
-
-### Sales Performance
+Examples include:
 
 - Total Revenue
 - Total Profit
-- Total Orders
 - Profit Margin
 - Average Order Value
-
-### Sales Trends
-
-- Monthly Sales
-- Quarterly Sales
-- Yearly Sales
 - Growth Rate
 - Return Rate
-
-### Product Analysis
-
-- Top Products
-- Bottom Products
-- Most Profitable Products
-- Quantity Sold
-
-### Regional Analysis
-
+- Total Customers
+- Total Orders
+- Total Quantity Sold
 - Sales by Region
-- Profit by Region
-- Profit Margin by Region
-
-### Customer Analysis
-
-- Top Customers
-- Sales per Customer
-- Profit per Customer
-- Orders per Customer
-
-### Category Analysis
-
-- Sales by Category
 - Profit by Category
-- Sales by Sub-Category
-- Profit by Sub-Category
+- Top Products
+- Top Customers
 
 ---
 
-# 📚 Documentation
+# 📸 Dashboard Screenshots
 
-The project includes detailed documentation:
+## Executive Overview
 
-- Business Requirements
-- KPI Definitions
-- Data Dictionary
-- ETL Process Documentation
+![Executive Overview](dashboard/dashboard_screenshots/executive_overview.png)
 
 ---
 
-# 🚀 Current Status
+## Sales Performance
 
-**Current Phase:** Data Modeling ✅
-
-The project is ready to begin DAX development and dashboard implementation.
+![Sales Performance](dashboard/dashboard_screenshots/sales_performance.png)
 
 ---
 
-## Author
+## Product Analysis
+
+![Product Analysis](dashboard/dashboard_screenshots/product_analysis.png)
+
+---
+
+## Customer & Regional Analysis
+
+![Customer Regional](dashboard/dashboard_screenshots/customer_regional.png)
+
+---
+
+## Category Analysis
+
+![Category Analysis](dashboard/dashboard_screenshots/category_analysis.png)
+
+---
+
+## Return Analysis
+
+![Return Analysis](dashboard/dashboard_screenshots/return_analysis.png)
+
+---
+
+# 📊 Skills Demonstrated
+
+- Business Analysis
+- KPI Development
+- Data Cleaning
+- ETL Design
+- Data Modeling
+- Star Schema
+- Power Query
+- DAX
+- Time Intelligence
+- Dashboard Design
+- Data Visualization
+- Business Intelligence
+- Git & GitHub
+
+---
+
+# 🚀 Future Improvements
+
+Potential enhancements include:
+
+- Forecasting using Power BI Analytics
+- Row-Level Security (RLS)
+- Mobile Layout
+- Incremental Refresh
+- SQL Data Source Integration
+- Python/R Visuals
+- Power BI Service Deployment
+
+---
+
+# 👩‍💻 Author
 
 **Samira Kiriti**
 
-Data Analyst | Power | Business Intelligence
+Data Analyst | Business Intelligence | Power BI | SQL | Python | Excel

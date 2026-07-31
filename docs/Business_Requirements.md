@@ -47,7 +47,7 @@ Phase 3 ─ Data Preparation (Power Query ETL)
                 ▼
 Phase 4 ─ Data Modeling
         │
-        ├── Build Star Schemagit log 
+        ├── Build Star Schema 
         ├── Create Dimension Tables
         ├── Create Date Table
         ├── Create Relationships
