@@ -295,6 +295,8 @@ Potential enhancements include:
 # 👩‍💻 Author
 
 **Samira Kiriti**
-![LinkedIN](https://www.linkedin.com/in/samira-kriti/)
+![https://www.linkedin.com/in/samira-kriti/]
 
 Data Analyst | Business Intelligence | Power BI | SQL | Python | Excel
+
+[https://www.linkedin.com/in/samira-kriti/]: https://www.linkedin.com/in/samira-kriti/
