@@ -227,37 +227,31 @@ Examples include:
 
 ## Executive Overview
 
-![Executive Overview](dashboard/dashboard_screenshots/executive_overview.png)
+![Executive Overview](dashboard/dashboard_screenshots/ExecutiveOverview.png)
 
 ---
 
 ## Sales Performance
 
-![Sales Performance](dashboard/dashboard_screenshots/sales_performance.png)
+![Sales Performance](dashboard/dashboard_screenshots/FinancialPerformance.png)
 
 ---
 
-## Product Analysis
+## Product & Category Analysis
 
-![Product Analysis](dashboard/dashboard_screenshots/product_analysis.png)
+![Product Analysis](dashboard/dashboard_screenshots/ProductCategoryAnalysis.png)
 
 ---
 
 ## Customer & Regional Analysis
 
-![Customer Regional](dashboard/dashboard_screenshots/customer_regional.png)
+![Customer Regional](dashboard/dashboard_screenshots/CustomerRegionalAnalysis.png)
 
 ---
 
-## Category Analysis
+## Forcasting
 
-![Category Analysis](dashboard/dashboard_screenshots/category_analysis.png)
-
----
-
-## Return Analysis
-
-![Return Analysis](dashboard/dashboard_screenshots/return_analysis.png)
+![Return Analysis](dashboard/dashboard_screenshots/Forcasting.png)
 
 ---
 
@@ -295,7 +289,10 @@ Potential enhancements include:
 # 👩‍💻 Author
 
 **Samira Kiriti**
-![https://www.linkedin.com/in/samira-kriti/]
+
+## 📫 Connect with Me
+
+- [LinkedIn Profile](https://www.linkedin.com/in/samira-kriti/)
 
 Data Analyst | Business Intelligence | Power BI | SQL | Python | Excel
 
